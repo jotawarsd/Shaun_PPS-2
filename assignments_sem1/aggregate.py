@@ -9,12 +9,12 @@ agg = (sum1/n)
 print("aggregate = ",agg)
 
 if(agg >= 75):
-    print("class: distinction")
+    print("Distinction")
 elif(agg >= 60 and agg < 75):
-    print("class: first class")
+    print("First Division")
 elif(agg >= 50 and agg < 60):
-    print("class: second class")
+    print("Second Division")
 elif(agg >= 40 and agg < 50):
-    print("class: third class")
+    print("Third Division")
 else:
     print("fail")
