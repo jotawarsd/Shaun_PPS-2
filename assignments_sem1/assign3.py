@@ -1,3 +1,9 @@
+'''
+Assignment No:3
+To accept N numbers from user. Compute and display maximum in list, minimum in list, 
+sum and average of numbers using built-in function.
+'''
+
 n = int(input("Enter number of inputs: "))
 numlst = []
 for i in range(n):
