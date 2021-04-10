@@ -12,7 +12,10 @@ n = int(input("number of subjects: "))
 sum1 = 0
 
 for i in range(n):
-    k = int(input("marks: "))
+    k = int(input("subject %d: " %(i+1)))
+    if(k < 40):
+        print("fail")
+        break
     sum1 = sum1 + k
 
 agg = (sum1/n)
@@ -24,7 +27,6 @@ elif(agg >= 60 and agg < 75):
     print("First Division")
 elif(agg >= 50 and agg < 60):
     print("Second Division")
-elif(agg >= 40 and agg < 50):
-    print("Third Division")
 else:
-    print("fail")
+    print("Third Division")
+

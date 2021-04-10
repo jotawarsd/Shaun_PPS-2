@@ -17,4 +17,4 @@ total = n + HRA + TAB   #calculate total salary
 PT = 0.02*total     #calculate Proffesional Tax
 net = total - PT    #calculate net salary payable to the employee
 
-print(net)    #print net salary
+print("final salary =", net)    #print net salary

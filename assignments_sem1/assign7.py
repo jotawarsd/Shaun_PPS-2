@@ -1,5 +1,4 @@
 '''
-
 Assignment no. 7
 To write a python program that accepts a string from user and performs the following string operations- 
 i. Calculate length of string 
@@ -7,11 +6,9 @@ ii. String reversal
 iii. Equality check of two strings 
 iv. Palindrome check
 v. Substring check
-
 '''
 
 string = input("Enter string : ")   #obtain an input as a string from the user
-
 print("1.Length \n2.Reversal \n3.Equality of 2 strings \n4.Palindrome check \n5.Substring check") 
 choice = int(input("Enter choice number: "))    #enlist choices of functions and allow the user to choose from them
 
@@ -51,4 +48,3 @@ elif(choice == 5):
     substring(string)                               #check substring
 else:
     pass
-

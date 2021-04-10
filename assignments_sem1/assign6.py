@@ -10,4 +10,5 @@ def reverse(s1):
     for i in range(n,-1,-1):    #printing the number in reverse
         print(s1[i], end='')
 
+print("reverse = ", end = '')
 reverse(num1)
