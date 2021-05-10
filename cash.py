@@ -11,4 +11,3 @@ for i in range(9,0,-1):
         continue
 
 print(x)
-print(n)
