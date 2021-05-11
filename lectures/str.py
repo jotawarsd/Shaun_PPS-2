@@ -39,9 +39,9 @@ s7 = "1234"
 print(s7.zfill(6))#zfill(width of output string)#adds 0 to remaining spaces to the left
 
 s8 = "hello hello hello"
-#      |2          |1     rfind will count from 1 to 2 if input is he
-#      |           |      rindex will count from end to he
-print(s8.rfind("he",0,len(s1)))
+#if string not found, index returns error
+#if string not found, find returns -1
+print(s8.rfind("hoe",0,len(s1)))
 print(s8.rindex("he",0,len(s1)))
 
 s9 = "welcome to python"
