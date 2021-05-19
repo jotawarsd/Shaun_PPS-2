@@ -7,7 +7,8 @@ for i in range(9,0,-1):
         while (n >= deno[i]):
             n = n - deno[i]
             x += 1
+            print(deno[i])
     else:
         continue
 
-print(x)
+print("number of denominations =", x)
