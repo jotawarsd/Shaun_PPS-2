@@ -37,4 +37,4 @@ if(grade >= 1 and grade < 16):
 elif(grade > 16):
     print("grade: 16+")
 elif(grade <1):
-    print("grade below 1")
+    print("grade < 1")
