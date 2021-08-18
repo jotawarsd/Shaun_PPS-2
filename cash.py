@@ -11,4 +11,4 @@ for i in range(9,0,-1):
     else:
         continue
 
-print("number of denominations =", x)
+print("minumum number of denominations =", x)
